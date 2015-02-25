@@ -1,0 +1,105 @@
+
+
+$primary-color: #7FB069;
+$secondary-color: #FFFBBD;
+$tertiary-color: #E6AA68;
+$fourth-color: #CA3C25;
+$fifth-color: #1D1A05;
+$white: #fff;
+$black: #000;
+
+
+
+body {
+  background: $white;
+  font-family: 'Gidugu', sans-serif;
+}
+
+
+
+
+
+div, script {
+  margin: 0 auto;
+  font-size: 1.75em;
+  color: $secondary-color;
+}
+
+li {
+  list-style: none;
+  padding: 8px;
+}
+
+button {
+  outline: none;
+  background: none;
+  border: none;
+  border: 1px solid $white;
+  border-radius: 10%;
+  background: #279AD1;
+  color: $white;
+  vertical-align: center;
+  padding: 6px;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: $black;
+}
+
+
+
+
+* {
+  line-height: 1.5em;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  font-family: Helvetica, Arial, sans;
+  flex-wrap: wrap;
+}
+
+.col {
+  padding: 2em;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.col.label {
+  background: #279ad1;
+  color: #fff;
+  width: 50%;
+  font-size: 3rem;
+}
+
+.col.link {
+  width: 50%;
+  color: #333;
+  font-size: 2.3rem;
+  font-family: Georgia, serif;
+  font-style: italic;
+  background-image: linear-gradient(180deg, #FFE5EE, #FFFCE5);
+}
+
+.col.link ul li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+h2 {
+  margin: 0;
+}
